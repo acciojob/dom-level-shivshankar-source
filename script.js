@@ -4,6 +4,7 @@ let children=ul.children
 let count=0
 for(let t of children){
 	if(t.id=="level"){
+		coun++;
 		prompt(`The level of the element is: ${count}`)
 		return;
 	}
